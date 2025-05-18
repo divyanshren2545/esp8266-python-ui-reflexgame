@@ -12,15 +12,22 @@ Serial communication with microcontroller
 Clone the repo
 Upload ESP code to ESP8266 via Arduino IDE
 Connect LEDs to GPIO 
-LED(anode)         ESP PIN
-1                    D1
-2                    D2
-3                    D3
-4                    D4
-5                    D5
+
+LED(anode)                        ESP PIN
+
+1  ->D1
+
+2    ->                               D2
+
+3      ->                             D3
+
+4        ->                           D4
+
+5          ->                         D5
 
 LED(cathode)           ESP PIN
-1,2,3,4,5                GND
+
+1,2,3,4,5      ->          GND
 
 Run python_ui.py
 
@@ -28,8 +35,11 @@ Run python_ui.py
 Look for circuit_diagram.png in the repo.
 
 **Folder Structure**
+
 /esp_code        → Arduino sketch (.ino)
+
 /python_ui       → Python UI script
+
 /docs            → README, Requirements, Circuit image
 
 **Dependencies**
