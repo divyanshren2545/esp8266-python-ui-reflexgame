@@ -1,0 +1,24 @@
+Title: Game Development & Process Log
+
+Phase 1: Concept
+Inspired by classic LED ping-pong reflex games
+Designed for both learning and entertainment
+
+Phase 2: Prototyping
+Built LED movement logic on ESP8266
+Tested bounce logic with delays and GPIO
+Validated wiring with 1kΩ resistors
+
+Phase 3: Python Integration
+Serial connection using pyserial
+Created tkinter-based UI with START/STOP/RESET
+Added scoreboard logic and game states
+
+Phase 4: Testing
+Calibrated LED speeds and UI delays
+Handled edge cases like bounce direction reversal
+Added serial error decoding for robust communication
+
+Phase 5: Finalization
+Cleaned UI for GitHub publishing
+Documented everything with circuit diagram, code comments, and requirements
